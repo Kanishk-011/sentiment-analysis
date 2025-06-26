@@ -1,8 +1,8 @@
 import streamlit as st
-import joblib
 import re
 import nltk
 from nltk.corpus import stopwords
+import joblib
 
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
